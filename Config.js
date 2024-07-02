@@ -3,7 +3,7 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "2348122618787"],
+global.ownernumber = [ process.env.OWNER_NUMBER || "2348149192590"],
 global.ownername = process.env.OWNER_NAME || "OLAMHIDE",
 global.ytname = "YT: AyushBotz.inc"
 global.socialm = "GitHub: olamide1236"
@@ -23,7 +23,7 @@ global.wm = "Ayush botz inc."
 global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
 
 //custom prefix
-global.prefa = process.env.PREFIX || ",",
+global.prefa = process.env.PREFIX || ".",
 
 //false=disable and true=enable
 global.welcome = process.env.WELCOME || "false", //auto welcome
